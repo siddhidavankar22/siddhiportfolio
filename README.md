@@ -1,6 +1,3 @@
-# siddhiportfolio
-
-
 # Python developer 
 
 
