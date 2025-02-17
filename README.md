@@ -19,70 +19,56 @@ Security:OAuth2.0, JWT, RBAC, encryption standards.
 Version Control:Git, GitHub, GitLab, Bitbucket.
 Architecture & Design:Microservices, MVC, Serverless, Event-Driven.
 ## Work Experience 
-## Client |                                                                                         Jan 2024 – Present 
-o	Role | Python Developer
-o	Responsibilities
-•	Technologies: GitHub Actions, Kubernetes, Helm, Docker, AWS (EKS), Terraform, ArgoCD, Prometheus, Grafana, Trivy
-•	Project Overview:
-As a key contributor to the development and implementation of a Kubernetes-based CI/CD pipeline, I played a pivotal role in automating the entire application deployment lifecycle, ensuring continuous integration, continuous deployment, and operational efficiency. This involved creating a robust pipeline to deploy a containerized web application to a Kubernetes cluster hosted on AWS EKS, with a strong focus on security, scalability, and performance optimization.
-•	CI/CD Pipeline Design & Automation:
-•	Designed, developed, and maintained a CI/CD pipeline using GitHub Actions to automate build, test, and deployment workflows for a containerized application.
-•	Integrated Docker to containerize the application, ensuring consistency across environments from development to production.
-•	Managed the entire deployment pipeline, reducing manual intervention and increasing deployment velocity.
-•	Containerization & Deployment Management:
-•	Dockerized the application, creating reusable Docker images for deployment across multiple environments.
-•	Utilized Helm to define Kubernetes deployments, ensuring consistent and repeatable application deployments with customizable configuration values.
-•	Automated deployment to AWS Elastic Kubernetes Service (EKS) using Helm charts, ensuring scalability and reliability across multiple environments.
-•	Implemented rolling updates with Kubernetes to ensure zero downtime during application deployment and upgrades.
-•	Infrastructure as Code (IaC) with Terraform:
-•	Leveraged Terraform to provision cloud infrastructure on AWS, including creating and managing resources such as EKS clusters, VPCs, and IAM roles, ensuring the infrastructure was scalable and secure.
-•	Implemented Terraform-based workflows to automate the setup of production-ready environments, eliminating manual configuration errors and improving reproducibility.
-•	Security & Compliance Management:
-•	Integrated Trivy to scan Docker images for vulnerabilities during the CI/CD pipeline, ensuring that only secure images were deployed.
-•	Configured Role-Based Access Control (RBAC) in Kubernetes to enforce security policies, restricting access to sensitive resources based on user roles and responsibilities.
-•	Implemented security measures such as encryption of sensitive environment variables and integration with AWS KMS for secure key management.
-•	Performance Optimization & Scalability:
-•	Designed and implemented Horizontal Pod Autoscaling (HPA) in Kubernetes to dynamically scale the application based on real-time traffic and resource usage.
-•	Optimized pipeline performance by caching dependencies in GitHub Actions and using parallel jobs to reduce overall build and deployment times.
-•	Configured Prometheus for application monitoring and Grafana for creating custom dashboards to track real-time metrics such as application health, CPU usage, and latency.
-•	Monitoring, Logging & Compliance:
-•	Configured Prometheus and Grafana for monitoring Kubernetes resources and application performance metrics, providing visibility into application health and operational efficiency.
-•	Integrated AWS CloudWatch and ArgoCD for enhanced real-time monitoring and logging, simplifying debugging and improving deployment reliability.
-•	Ensured compliance with regulatory standards by incorporating logging, audit trails, and integration with SIEM tools (e.g., Splunk) for anomaly detection and security alerts.
-•	Collaboration & Knowledge Sharing:
-•	Collaborated with cross-functional teams (DevOps, QA, developers) to ensure a smooth and efficient deployment process.
-•	Provided knowledge transfer to team members regarding Kubernetes best practices, CI/CD workflow automation, and infrastructure provisioning.
-•	Outcome & Achievements:
-•	Successfully automated the deployment pipeline, reducing deployment time by 50% and increasing the frequency of production releases.
-•	Ensured high availability and fault tolerance for the application by leveraging Kubernetes scaling and monitoring tools.
-•	Enhanced team collaboration and productivity by implementing an automated, scalable, and secure CI/CD process.
-•	Contributed to a significant improvement in application reliability, performance, and compliance with security standards.
+## Client |Zensar                                                                                         Jan 2024 – Present 
+Python, FastAPI, NLP (spaCy, Transformers), OpenAI/GPT, PostgreSQL, LangChain, Selenium, TensorFlow, Power BI, ServiceNow API, RESTful APIs
+o	Project Overview:
+o	Operated an AI-powered IT helpdesk automation system to optimize IT support operations by automating ticket classification, prioritization, root cause analysis, and chatbot-based self-service support. The system integrates with ServiceNow, Jira, and Freshservice to enhance ticket resolution workflows, reduce manual intervention, and improve ITSM efficiency.
+o	Key Responsibilities & Contributions:
+o	Automated IT Ticket Management & Workflow Optimization
+o	Performed an NLP-based classification model using Transformers, spaCy, and Scikit-learn to automatically categorize and prioritize IT support tickets based on issue type, severity, and urgency.
+o	Integrated the classification model with ServiceNow API to auto-assign tickets to the appropriate teams, reducing manual triaging efforts by X%.
+o	Implemented a sentiment analysis module to assess the urgency of user-reported issues, ensuring critical incidents are prioritized for faster resolution.
+o	AI-Driven Virtual IT Assistant (Conversational Chatbot)
+o	Built a conversational AI chatbot using GPT-4, LangChain, and Rasa, capable of understanding IT queries and providing real-time automated solutions.
+o	Integrated the chatbot with IT knowledge bases and ticketing systems, enabling users to self-resolve common IT issues such as password resets, VPN connectivity problems, and software installation requests.
+o	Reduced IT support ticket volume by X% through self-service automation, improving response times and reducing IT workload.
+o	Machine Learning-Based Root Cause Analysis & Predictive Analytics
+o	Designed and deployed predictive maintenance models (TensorFlow, Scikit-learn) to analyze historical IT ticket data, identifying recurring issues and patterns that contribute to system failures.
+o	Implemented a recommendation engine that suggests probable solutions to IT agents based on past ticket resolutions, reducing Mean Time to Resolution (MTTR) by X%.
+o	 IT Service Management (ITSM) Integration & Process Automation
+o	Integrated the system with ServiceNow, Jira, and Freshservice to enable automated incident logging, SLA tracking, and change request management.
+o	Worked on Python-based workflow automation engine that triggers escalation workflows for high-priority incidents, ensuring faster response times for critical system failures.
+o	Proactive IT Monitoring & Business Intelligence Reporting
+o	Developed Python-based real-time monitoring scripts to detect and flag network outages, application crashes, and security vulnerabilities by analyzing system logs.
+o	Created an interactive Power BI dashboard that provides real-time insights into IT service performance metrics, incident trends, compliance status, and resolution efficiency.
+o	Automated alerting mechanisms using Python and email APIs to notify IT teams about recurring issues or SLA violations.
 
 ## Client | LTIMindtree                                                                   Aug 2022 – Dec 2023 
-o	Role | Python Developer
-o	Responsibilities |
-•	 Python, FastAPI, NLP (spaCy, Transformers), OpenAI/GPT, PostgreSQL, LangChain, Selenium, TensorFlow, Power BI, ServiceNow API, RESTful APIs
-•	Project Overview:
-•	Operated an AI-powered IT helpdesk automation system to optimize IT support operations by automating ticket classification, prioritization, root cause analysis, and chatbot-based self-service support. The system integrates with ServiceNow, Jira, and Freshservice to enhance ticket resolution workflows, reduce manual intervention, and improve ITSM efficiency.
-•	Key Responsibilities & Contributions:
-•	Automated IT Ticket Management & Workflow Optimization
-•	Performed an NLP-based classification model using Transformers, spaCy, and Scikit-learn to automatically categorize and prioritize IT support tickets based on issue type, severity, and urgency.
-•	Integrated the classification model with ServiceNow API to auto-assign tickets to the appropriate teams, reducing manual triaging efforts by X%.
-•	Implemented a sentiment analysis module to assess the urgency of user-reported issues, ensuring critical incidents are prioritized for faster resolution.
-•	AI-Driven Virtual IT Assistant (Conversational Chatbot)
-•	Built a conversational AI chatbot using GPT-4, LangChain, and Rasa, capable of understanding IT queries and providing real-time automated solutions.
-•	Integrated the chatbot with IT knowledge bases and ticketing systems, enabling users to self-resolve common IT issues such as password resets, VPN connectivity problems, and software installation requests.
-•	Reduced IT support ticket volume by X% through self-service automation, improving response times and reducing IT workload.
-•	Machine Learning-Based Root Cause Analysis & Predictive Analytics
-•	Designed and deployed predictive maintenance models (TensorFlow, Scikit-learn) to analyze historical IT ticket data, identifying recurring issues and patterns that contribute to system failures.
-•	Implemented a recommendation engine that suggests probable solutions to IT agents based on past ticket resolutions, reducing Mean Time to Resolution (MTTR) by X%.
-•	 IT Service Management (ITSM) Integration & Process Automation
-•	Integrated the system with ServiceNow, Jira, and Freshservice to enable automated incident logging, SLA tracking, and change request management.
-•	Worked on Python-based workflow automation engine that triggers escalation workflows for high-priority incidents, ensuring faster response times for critical system failures.
-•	Proactive IT Monitoring & Business Intelligence Reporting
-•	Developed Python-based real-time monitoring scripts to detect and flag network outages, application crashes, and security vulnerabilities by analyzing system logs.
-•	Created an interactive Power BI dashboard that provides real-time insights into IT service performance metrics, incident trends, compliance status, and resolution efficiency.
-•	Automated alerting mechanisms using Python and email APIs to notify IT teams about recurring issues or SLA violations.
+o	Python, FastAPI/Django, GitHub Actions, Kubernetes, Helm, Docker, AWS (EKS, Lambda, S3, RDS), Terraform, ArgoCD, Prometheus, Grafana, PostgreSQL, Redis, RabbitMQ
+o	Project Overview:
+o	Developed and deployed a cloud-native, AI-driven microservices architecture for a high-performance data processing platform. Led the end-to-end development of scalable, secure, and resilient services using modern DevOps practices and cloud technologies.
+o	Microservices & API Development:
+o	Designed and implemented RESTful APIs and microservices using FastAPI/Django to support real-time data processing and secure integrations.
+o	Developed GraphQL endpoints for efficient data fetching and optimized API response times.
+o	Integrated OAuth2.0 and JWT authentication for secure access management.
+o	Containerization & CI/CD Automation:
+o	Containerized microservices with Docker and deployed to AWS EKS using Kubernetes and Helm charts.
+o	Automated build, test, and deployment workflows using GitHub Actions, reducing deployment time by 40%.
+o	Implemented rolling updates and blue-green deployments for seamless upgrades with zero downtime.
+o	Infrastructure as Code (IaC) & Cloud Automation:
+o	Provisioned AWS infrastructure (EKS, RDS, S3, IAM roles) using Terraform to ensure consistency and scalability.
+o	Integrated ArgoCD for automated GitOps-based deployment and configuration management.
+o	Monitoring, Security & Compliance:
+o	Configured Prometheus and Grafana to monitor application performance and alert on anomalies.
+o	Implemented container security scanning with Trivy and enforced Kubernetes RBAC for access control.
+o	Integrated AWS CloudWatch for centralized logging and real-time troubleshooting.
+o	Performance Optimization & Scalability:
+o	Optimized PostgreSQL queries, indexing, and caching strategies using Redis to improve API response times by 30%.
+o	Implemented Horizontal Pod Autoscaling (HPA) to dynamically adjust resources based on traffic load.
+o	Collaboration & Achievements:
+o	Worked closely with cross-functional teams (DevOps, QA, frontend) to ensure seamless API integration.
+o	Led knowledge-sharing sessions on Kubernetes, CI/CD automation, and API security best practices.
+o	Successfully reduced deployment failures by 60% through automated testing and monitoring improvements.
 
 ## Client |  Buyerr                                                                               Jan 2020 – April 2021
 o	Role | Software Developer
