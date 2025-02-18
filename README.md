@@ -43,7 +43,7 @@ o	Developed Python-based real-time monitoring scripts to detect and flag network
 o	Created an interactive Power BI dashboard that provides real-time insights into IT service performance metrics, incident trends, compliance status, and resolution efficiency.
 o	Automated alerting mechanisms using Python and email APIs to notify IT teams about recurring issues or SLA violations.
 
-## Client | LTIMindtree                                                                   Aug 2022 – Dec 2023 
+## Client | Netlabs Global IT Services                                                                  Aug 2022 – Dec 2023 
 o	Python, FastAPI/Django, GitHub Actions, Kubernetes, Helm, Docker, AWS (EKS, Lambda, S3, RDS), Terraform, ArgoCD, Prometheus, Grafana, PostgreSQL, Redis, RabbitMQ
 o	Project Overview:
 o	Developed and deployed a cloud-native, AI-driven microservices architecture for a high-performance data processing platform. Led the end-to-end development of scalable, secure, and resilient services using modern DevOps practices and cloud technologies.
